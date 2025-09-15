@@ -1,0 +1,50 @@
+{
+	"cSpell.enabled": false,
+	// "css.customData": [
+	// 	".vscode/tailwind.json"
+	// ],
+	// "files.associations": {
+	// 	"*.css": "tailwindcss"
+	// },
+	"editor.inlineSuggest.enabled": true,
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"css.validate": false,
+	"editor.formatOnSave": true,
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+	"svelte.plugin.svelte.compilerWarnings": {
+		"css-unused-selector": "ignore",
+		"missing-declaration": "ignore"
+	},
+	"css.lint.unknownAtRules": "ignore",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"containers.environment": {
+		"DOCKER_HOST": "tcp://45.77.215.195:2376",
+		"DOCKER_CERT_PATH": "D:/Project/agc-project/certs",
+		"DOCKER_TLS_VERIFY": "true"
+	},
+	"terminal.integrated.profiles.windows": {
+		"Ubuntu-24.04": {
+			"path": "C:\\Windows\\System32\\wsl.exe",
+			"args": [
+				"-d",
+				"Ubuntu-24.04"
+			],
+			"terminal-icon": "ubuntu"
+		}
+	},
+	"workbench.view.showQuietly": {
+		"workbench.panel.output": true
+	},
+	"html.autoClosingTags": false
+}
